@@ -39,3 +39,13 @@ services:
             - '@sylius.repository.channel'
         tags:
             - { name: sylius.context.channel, priority: 1000 }
+    
+    App\ShippingCalculator\WeightBasedShippingCalculator:
+        tags:
+            -
+              {
+                  name: sylius.shipping_calculator,
+                  calculator: 'weight_base',
+                  form_type: 'App\Form\Type\WeightBasedShippingCalculatorType',
+                  label: 'Weight-based'
+              }
