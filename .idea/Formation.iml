@@ -259,6 +259,8 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/sylius-labs/polyfill-symfony-framework-bundle" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/stopwatch" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/sylius-labs/polyfill-symfony-security" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/maker-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/cweagans/composer-patches" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

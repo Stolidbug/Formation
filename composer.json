@@ -16,6 +16,7 @@
     ],
     "require": {
         "php": "^7.3",
+        "cweagans/composer-patches": "^1.7",
         "friendsofsymfony/oauth-server-bundle": ">2.0.0-alpha.0 ^2.0@dev",
         "sylius/paypal-plugin": "^1.1",
         "sylius/sylius": "~1.9.0",
@@ -47,6 +48,7 @@
         "symfony/browser-kit": "^4.4 || ^5.2",
         "symfony/debug-bundle": "^4.4 || ^5.2",
         "symfony/intl": "^4.4 || ^5.2",
+        "symfony/maker-bundle": "^1.29",
         "symfony/web-profiler-bundle": "^4.4 || ^5.2",
         "symplify/easy-coding-standard": "^8.3"
     },
