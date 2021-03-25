@@ -1,0 +1,14 @@
+{
+    "name": "sylius/online-course-theme",
+    "authors": [
+        {
+            "name": "Stolidbug",
+            "email": "contact@stolidbug.com"
+        }
+    ],
+    "extra": {
+        "sylius-theme": {
+            "title": "Online Course Theme"
+        }
+    }
+}
