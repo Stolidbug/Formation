@@ -15,7 +15,7 @@ final class AdminMainMenuListener
         $configurationMenu
             ->addChild('suppliers', ['route' => 'app_admin_supplier_index'])
             ->setLabel('app.ui.suppliers')
-            ->setAttribute('icon', 'address card outline')
+            ->setLabelAttribute('icon', 'address card outline')
         ;
     }
 }

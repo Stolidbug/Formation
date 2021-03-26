@@ -2,6 +2,16 @@ sylius_admin:
     resource: "@SyliusAdminBundle/Resources/config/routing.yml"
     prefix: /admin
 
+app_storagelocation:
+    resource: |
+        alias: app.storagelocation
+        except: ['show']
+        section: admin
+        templates: "@SyliusAdmin\\Crud"
+        grid: app_admin_storagelocation
+    type: sylius.resource
+    prefix: /admin
+
 app_supplier:
     resource: |
         alias: app.supplier

@@ -1,7 +1,11 @@
 app:
    ui:
+       storageproducts: "Lieu de stockage"
+       new_storagelocation: " Nouveaux Lieux de stockage"
+       storagelocation: "Lieu de stockage"
+       storagelocations: "Lieux de stockage"
        supplier: "Supplier"
        suppliers: "Suppliers"
        t_shirt_product: "Tshirt product"
        trust: "Trust"
-        
+

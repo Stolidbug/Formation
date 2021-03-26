@@ -1,5 +1,35 @@
 sylius_grid:
     grids:
+        app_admin_storagelocation:
+            driver:
+                options:
+                    class: "%app.model.storagelocation.class%"
+            fields:
+                address:
+                    type: string
+                    label: sylius.ui.address
+                postal:
+                    type: string
+                    label: sylius.ui.postcode
+                city:
+                    type: string
+                    label: sylius.ui.city
+                country:
+                    type: string
+                    label: sylius.ui.country
+                products:
+                    type: string
+                    label: sylius.ui.products
+                    path: countStorageProducts
+            actions:
+                main:
+                    create:
+                        type: create
+                item:
+                    update:
+                        type: update
+                    delete:
+                        type: delete
         app_admin_supplier:
             driver:
                 options:
@@ -66,3 +96,4 @@ sylius_grid:
                                     label: app.ui.t_shirt_product
                                     icon: plus
                                     route: app_admin_product_create_t_shirt
+  

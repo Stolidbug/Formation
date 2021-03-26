@@ -4,6 +4,7 @@
 namespace App\Form\Extension;
 
 
+use App\Entity\StorageLocation;
 use App\Entity\Supplier;
 use Sylius\Bundle\ProductBundle\Form\Type\ProductType;
 use Symfony\Bridge\Doctrine\Form\Type\EntityType;
@@ -19,6 +20,11 @@ class ProductTypeExtension extends AbstractTypeExtension
                 'class' => Supplier::class,
                 'choice_label' => 'name',
                 'label' => 'app.ui.supplier',
+            ])
+            ->add('storagelocation', EntityType::class, [
+                'class' => StorageLocation::class,
+                'choice_label' => 'city',
+                'label' => 'app.ui.storagelocation',
             ])
             ;
     }
